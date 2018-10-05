@@ -17,9 +17,32 @@
 
 <div class="container">
 <div class="row text-center" style="background-color:#04a3a3;">
-<div class="col-md-3 text-center">
+
+<div class="col-md-3" style="background-color: #212529; color: white; border-style: solid; border: 1px;">
 <br />
-<img src="https://www.chainsawspares.com.au/assets/images/jono_johno_logo.png" class="img-responsive img-rounded"  align="center"    width="300" height="200" alt="Jono & Johno eBay Online Store "/>
+<img  src="https://www.jonoandjohno.com.au/templates/images/jj_ebay_store_cats.jpg" class="img-responsive img-rounded"  width="100%" height="auto" alt="Jono & Johno eBay Categories" /></a>
+[%EBAY_CATEGORY_MENU id:"[@ebay_store_id@]" ebstore_url:"[@ebstore_url@]"%][%PARAM header%] 
+<ul>
+[%END PARAM%]               
+[%PARAM *level_1%]
+<li>
+<div class="MainItemList"><a href="[@url@]" target="_blank" style="color: white;">[@name@]</a></div>
+</li> 
+<p>
+[%END PARAM%]
+[%PARAM footer%]
+[%END PARAM%][%END EBAY_CATEGORY_MENU%]      </p>
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+<tr>
+<td align="left"><img src="https://chainsawspares.com.au/assets/images/links.png"></td>
+</tr>
+</table>
+<li><a href="https://stores.ebay.com.au/jonojohno20004/measuring-your-chain-size.html" target="_blank" style="color: white;">How do I know what chain to purchase?</a></</li>
+<li><a href="https://stores.ebay.com.au/jonojohno20004/About.html" target="_blank" style="color: white;">About Jono &amp; Johno</a></li>
+<li><a href="https://stores.ebay.com.au/jonojohno20004/FAQ.html" target="_blank" style="color: white;">FAQ</a></li>
+<li><a href="https://stores.ebay.com.au/jonojohno20004/Contact.html" target="_blank" style="color: white;">Contact Us</a></li>
+<li><a href="https://stores.ebay.com.au/jonojohno20004" target="_blank" style="color: white;">Ebay Store Home</a></li>
+</ul>
 </div>
 
 <div class="col-md-9 text-center"  style="color:white;">
@@ -181,7 +204,8 @@ We deal in chainsaw spares, bars &amp; chains, stationary engines,<br /> water p
 
 <div class="col-md-12" style="background-color: #9F000F;">
 <br />
-<center><div >
+<center>
+<div >
 <img alt="Free Shipping Template" src="https://www.chainsawspares.com.au/assets/images/free_postage.jpg" class="img-responsive img-rounded"  width="696" height="157" alt="Jono & Johno Free Shipping Banner"/>
 </center>
 </div>
