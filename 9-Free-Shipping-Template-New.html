@@ -1,22 +1,30 @@
-<style>img{max-width:100%}</style>
+<div class="container" style="background-color: #004d99; border-radius: 5px;">
+<div class="row">
 
 <title>Chainsaw Template - Chainsaw Template Coded in Bootstrap, HTML and CSS</title>
-    
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Chainsaw Template - Chainsaw Template Coded in Bootstrap, HTML and CSS Coding by: ROLANDDDIAZ.COM">
 <meta name="author" content="ROLANDDDIAZ.COM">
-    
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/style.css" rel="stylesheet" />
-<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
-    
-<div class="container" style="background-color:white;">
-<div class="row">
 
-<div class="container">
-<div class="row text-center" style="background-color:#04a3a3;">
+<div class="col-md-3 text-center">
+<br />
+<img src="https://www.chainsawspares.com.au/assets/images/jono_johno_logo.png" class="img-responsive img-rounded" align="center" width="100%" height="auto" alt="Jono & Johno eBay Online Store "/>
+</div>
+
+<div class="col-md-9 text-center"  style="color:white;">
+<br />
+<br />
+<br />
+<h4>
+We deal in chainsaw spares, bars &amp; chains, stationary engines,<br /> water pumps, weed sprayers, mower spares &amp; much more.
+</h4>
+</div>
+
+<div class="col-md-12"style=" text-align: center; background-color: #d9534f;  color: white;">
+<a href="https://stores.ebay.com.au/jonojohno20004/Contact.html" target="_blank"> <img  src="https://www.jonoandjohno.com.au/templates/samples/contacttop/contact-top1-red.png" class="img-responsive img-rounded"  width="100%" height="auto" alt="Jono & Johno eBay Contact Link" /></a>
+</div>
 
 <div class="col-md-3" style="background-color: #212529; color: white; border-style: solid; border: 1px;">
 <br />
@@ -45,140 +53,83 @@
 </ul>
 </div>
 
-<div class="col-md-9 text-center"  style="color:white;">
-<br />
-<br />
-<br />
-<h4>
-We deal in chainsaw spares, bars &amp; chains, stationary engines,<br /> water pumps, weed sprayers, mower spares &amp; much more.
-</h4>
-</div>
-
-</div>
-</div>
-
-<div class="container">
-<div class="row" style="background-color: black;">
-</a>
-<a href="https://stores.ebay.com.au/jonojohno20004/Contact.html" target="_blank">
-<img  src="https://www.jonoandjohno.com.au/templates/samples/contacttop/contact-top1-red.png" class="img-responsive img-rounded"  width="1231" height="44" alt="Jono & Johno eBay Contact number "/>
-</a>
-</div>
-
-</div>
-    
-<div class="container">
-<div class="row">
-
-<div class="col-md-3" style="background-color: #202216;">
-<br />
-<br />
-<a href="https://stores.ebay.com.au/jonojohno20004" target="_blank">
-<img  src="https://www.jonoandjohno.com.au/templates/images/jj_ebay_store_cats.jpg"  class="img-responsive img-rounded"  width="300" height="50" alt="Jono & Johno eBay Online Store Thumb 1">
-</a>
-<br />
-[%EBAY_CATEGORY_MENU id:"[@ebay_store_id@]" ebstore_url:"[@ebstore_url@]"%][%PARAM header%]
-[%END PARAM%] [%PARAM *level_1%]
-<div class="MainItemList"><a href="[@url@]" target="_blank" style="color: white;"><strong>[@name@]</strong></a></div>
-[%END PARAM%] [%PARAM footer%]
-[%END PARAM%][%END EBAY_CATEGORY_MENU%] 
-<br />
-<br />
-</div>
-
 <div class="col-md-9" style="background-color: white;">
 <br />
-<img   src="https://www.chainsawspares.com.au/assets/images/award_labels.png"  class="img-responsive img-rounded"  width="900" height="150" alt="Jono & Johno eBay Online Store "/>
+<img   src="https://www.chainsawspares.com.au/assets/images/award_labels.png"  class="img-responsive img-rounded"  width="100%" height="auto" alt="Jono & Johno eBay Online Store "/>
 <hr />
-<img  src="https://www.jonoandjohno.com.au/templates/images/click.png" class="img-responsive img-rounded"  width="300" height="30" alt="Jono & Johno eBay Online Store Thumb 1"/>
+<img  src="https://www.jonoandjohno.com.au/templates/images/click.png" class="img-responsive img-rounded"  width="40%" height="auto" alt="Jono & Johno eBay Online Store Thumb 1"/>
 <hr />
+
 <table id=EIPtable width=100% align=center cellpadding=7 cellspacing=0>
 <tr>
 <td valign=top align=center style="padding-left:11px;padding-right:11px;">
+
 <table width="100%" align=center cellpadding=0 cellspacing=0>
 <tr>
+
 <td valign=top align=center title="Enlarge in Place">
+
 [%DATA id:'image_full' if:'ne' value:''%] 
-<a href="[@image_full@]" target="_blank"> 
-<img src="[@image_full@]" alt="Product Photo 1" title="Product Image 1" style="border: 0px; margin: 0px; width: 120px; height: 120px;" >
-</a>
+<a href="[@image_full@]" target="_blank"> <img src="[@image_full@]" alt="Product Photo 1" title="Product Image 1" style="border: 0px; margin: 0px; width: 100%; height: auto;" ></a>
 [%END DATA%]
 <br>
 [%DATA id:'thumb_full_5' if:'ne' value:''%] 
-<a href="[@thumb_full_5@]" target="_blank"> 
-<img src="[@thumb_full_5@]" alt="Product Photo 2" title="Product Image 2" style="border: 0px; margin: 0px; width: 120px; height: 120px;" >
-</a>
+<a href="[@thumb_full_5@]" target="_blank"> <img src="[@thumb_full_5@]" alt="Product Photo 2" title="Product Image 2" style="border: 0px; margin: 0px; width: 100%; height: auto;" ></a>
 [%END DATA%]
 <br>
 </td>                          
 <td valign=top align=center title="Click to View">
 [%DATA id:'thumb_full_1' if:'ne' value:''%] 
-<a href="[@thumb_full_1@]" target="_blank"> 
-<img src="[@thumb_full_1@]" alt="Product Photo 3" title="Product Image 3" style="border: 0px; margin: 0px; width: 120px; height: 120px;" >
-</a>
+<a href="[@thumb_full_1@]" target="_blank"> <img src="[@thumb_full_1@]" alt="Product Photo 3" title="Product Image 3" style="border: 0px; margin: 0px; width: 100%; height: auto;" ></a>
 [%END DATA%] 
 <br>
 [%DATA id:'thumb_full_6' if:'ne' value:''%] 
-<a href="[@thumb_full_6@]" target="_blank"> 
-<img src="[@thumb_full_6@]" alt="Product Photo 4" title="Product Image 4" style="border: 0px; margin: 0px; width: 120px; height: 120px;" > 
-</a>
+<a href="[@thumb_full_6@]" target="_blank"> <img src="[@thumb_full_6@]" alt="Product Photo 4" title="Product Image 4" style="border: 0px; margin: 0px; width: 100%; height: auto;" > </a>
 [%END DATA%]
 <br>
 </td>
+
 <td valign=top align=center title="Click to View">
 [%DATA id:'thumb_full_2' if:'ne' value:''%] 
-<a href="[@thumb_full_2@]" target="_blank"> 
-<img src="[@thumb_full_2@]" alt="Product Photo 5" title="Product Image 5" style="border: 0px; margin: 0px; width: 120px; height: 120px;" > 
-</a>
+<a href="[@thumb_full_2@]" target="_blank"> <img src="[@thumb_full_2@]" alt="Product Photo 5" title="Product Image 5" style="border: 0px; margin: 0px; width: 100%; height: auto;" > </a>
 [%END DATA%]
 <br>
 [%DATA id:'thumb_full_7' if:'ne' value:''%] 
-<a href="[@thumb_full_7@]" target="_blank"> 
-<img src="[@thumb_full_7@]" alt="Product Photo 6" title="Product Image 6" style="border: 0px; margin: 0px; width: 120px; height: 120px;" >
-</a>
+<a href="[@thumb_full_7@]" target="_blank"> <img src="[@thumb_full_7@]" alt="Product Photo 6" title="Product Image 6" style="border: 0px; margin: 0px; width: 100%; height: auto;" ></a>
 [%END DATA%]
 </td>
+
 <td valign=top align=center title="Click to View">
 [%DATA id:'thumb_full_3' if:'ne' value:''%] 
-<a href="[@thumb_full_3@]" target="_blank"> 
-<img src="[@thumb_full_3@]" alt="Product Photo 7" title="Product Image 7" style="border: 0px; margin: 0px; width: 120px; height: 120px;" >
-</a>
+<a href="[@thumb_full_3@]" target="_blank"> <img src="[@thumb_full_3@]" alt="Product Photo 7" title="Product Image 7" style="border: 0px; margin: 0px; width: 100%; height: auto;" ></a>
 [%END DATA%]
 <br>
 [%DATA id:'thumb_full_8' if:'ne' value:''%] 
-<a href="[@thumb_full_8@]" target="_blank"> 
-<img src="[@thumb_full_8@]" alt="Product Photo 8" title="Product Image 8" style="border: 0px; margin: 0px; width: 120px; height: 120px;" >
-</a>
+<a href="[@thumb_full_8@]" target="_blank"> <img src="[@thumb_full_8@]" alt="Product Photo 8" title="Product Image 8" style="border: 0px; margin: 0px; width: 100%; height: auto;" ></a>
 [%END DATA%]
 </td>
+
 <td valign=top align=center title="Click to View">
 [%DATA id:'thumb_full_4' if:'ne' value:''%] 
-<a href="[@thumb_full_4@]" target="_blank"> 
-<img src="[@thumb_full_4@]" alt="Product Photo 9" title="Product Image 9" style="border: 0px; margin: 0px; width: 120px; height: 120px;" >
-</a>
+<a href="[@thumb_full_4@]" target="_blank"> <img src="[@thumb_full_4@]" alt="Product Photo 9" title="Product Image 9" style="border: 0px; margin: 0px; width: 100%; height: auto;" ></a>
 [%END DATA%]
 <br>
 [%DATA id:'thumb_full_9' if:'ne' value:''%] 
-<a href="[@thumb_full_9@]" target="_blank"> 
-<img src="[@thumb_full_9@]" alt="Product Photo 10" title="Product Image 10" style="border: 0px; margin: 0px; width: 120px; height: 120px;" >
-</a>
+<a href="[@thumb_full_9@]" target="_blank"> <img src="[@thumb_full_9@]" alt="Product Photo 10" title="Product Image 10" style="border: 0px; margin: 0px; width: 100%; height: auto;" ></a>
 [%END DATA%]
 </td>
-
 </tr>
 </table>
-
+<hr />
 </td>
 </tr>
 </table>
-<br />
-<br />
-
 <div class="tabbable">
 <div class="tab-content">
 <div class="tab-pane active" id="description">[%DATA id:'ebay_description' if:'ne' value:'' %]
 <div class="productdetails">[@EBAY_DESCRIPTION@]</div>[%END DATA%] [%DATA id:'ebay_description' if:'eq' value:'' %] [%DATA id:'description' if:'ne' value:'' %]
 <div class="productdetails">[@DESCRIPTION@]</div>[%END DATA%] [%END DATA%]
+          
 </div>
 [%DATA id:'features' if:'ne' value:'' %]
 <div class="tab-pane" id="features">[@FEATURES@]</div>[%END DATA%]
@@ -190,43 +141,30 @@ We deal in chainsaw spares, bars &amp; chains, stationary engines,<br /> water p
 [%DATA id:'warranty' if:'ne' value:'' %]
 <div class="tab-pane" id="warranty">[@WARRANTY@]</div>[%END DATA%]
 </div>
-        
 </div>
-<hr />
-  
-</div>    
-
-</div> 
 </div>
-
-<div class="container">
-<div class="row">
-
 <div class="col-md-12" style="background-color: #9F000F;">
 <br />
-<center>
-<div >
-<img alt="Free Shipping Template" src="https://www.chainsawspares.com.au/assets/images/free_postage.jpg" class="img-responsive img-rounded"  width="696" height="157" alt="Jono & Johno Free Shipping Banner"/>
+<center><div ><img alt="Free Shipping Template" src="https://www.chainsawspares.com.au/assets/images/free_postage.jpg" class="img-responsive img-rounded"  width="696" height="157" alt="Jono & Johno Free Shipping Banner"/>
 </center>
 </div>
 
-</div>
-</div>
-    
 <div class="container" style="background-color: #0665b0;">
 <div class="row" style="background-color: #091f30;">
 <div class="col-md-6">
 <div>&nbsp;</div>
+
 <h3 style="color: white; font-family: 'Trebuchet MS' " >Shipping</h3>
 <br />
 <ul style="color: white;">
-<li>Please refer to the adjacent postage chart for an estimated delivery time for your state.</li>
-<li>We post your goods as quickly as we can. 99% of all purchases are freighted out of our warehouse within 24 hours</li>
-<li>Most larger items are sent with e-Parcel. e-Parcel is an Australia Post parcel delivery service that requires a signature on delivery.
-If no-one is home at time of delivery then a card will be left in your letter-box requesting that you pick the parcel up from your local post office.</li>
-<li>Many smaller items are sent in an envelope with stamps. These items are not tracked and will be left in your mail box.</li>
-<li>Please understand that we have no control over the Australia Post mail network.</li>
+    <li>Please refer to the adjacent postage chart for an estimated delivery time for your state.</li>
+    <li>We post your goods as quickly as we can. 99% of all purchases are freighted out of our warehouse within 24 hours</li>
+    <li>Most larger items are sent with e-Parcel. e-Parcel is an Australia Post parcel delivery service that requires a signature on delivery.
+        If no-one is home at time of delivery then a card will be left in your letter-box requesting that you pick the parcel up from your local post office.</li>
+    <li>Many smaller items are sent in an envelope with stamps. These items are not tracked and will be left in your mail box.</li>
+    <li>Please understand that we have no control over the Australia Post mail network.</li>
 </ul>
+
 <div>&nbsp;
 <h3 style="color: white; font-family: 'Trebuchet MS'">Combined Postage on Multiple Purchases</h3>
 </div>
@@ -242,8 +180,8 @@ If no-one is home at time of delivery then a card will be left in your letter-bo
 &nbsp;
 <div style="color: white; font-family: 'Trebuchet MS'">
 <h3>Payment</h3>
-</div>&nbsp;
-
+</div>
+&nbsp;
 <div style="color: white;">Payments to be made within 3 days of auction end. Direct Bank Deposit, Electronic Funds Transfer (preferred) and PAYPAL accepted.</div>
 &nbsp;
 <div style="color: white;">Please list Ebay User Name when transferring money to avoid postage delays.</div>
@@ -252,8 +190,8 @@ If no-one is home at time of delivery then a card will be left in your letter-bo
 &nbsp;
 <div style="color: white; font-family: 'Trebuchet MS'">
 <h3>Bank Details</h3>
-</div>&nbsp;
-
+</div>
+&nbsp;
 <div style="color: white;"><strong>CBA Account Name:</strong> Jono &amp; Johno</div>
 <div style="color: white;"><strong>BSB:</strong> 062 000</div>
 <div style="color: white;"><strong>Account Number:</strong> 1591 3204</div>
@@ -262,10 +200,10 @@ If no-one is home at time of delivery then a card will be left in your letter-bo
 </div>
 
 <div class="col-md-6">
+<br/>
 <h3 style="color: white; font-family: 'Trebuchet MS'">Delivery Times</h3>
 &nbsp;
 <div class="row">
-
 <div class="col-md-6">
 <p style="color: white;">We freight your purchase out the same day if ordered before 7:30am. Delivery time will vary depending on your state.</p>
 <p style="text-align: right;">
@@ -325,11 +263,9 @@ If no-one is home at time of delivery then a card will be left in your letter-bo
 <br />
 <p style="text-align: center;"><strong><a href="https://stores.ebay.com.au/jonojohno20004/Contact.html" target="_blank"><span style="color:#FFFFFF;">"For phone support, email support and store locations, please click here."</span></a></strong></p>
 </div>
-
-</div>
 </div>
 
-<div class="container" >
+
 <div class="row" style="background-color: #8c4625;">
 <div class="col-md-8">&nbsp;
 <div style="color: white; font-family: 'Trebuchet MS'">
@@ -343,20 +279,17 @@ If no-one is home at time of delivery then a card will be left in your letter-bo
 <div style="color: white;">We pride ourselves on our product knowledge and on our unbeatable customer service. Jono &amp; Johno is proudly Australian owned and operated.</div>
 &nbsp;
 <div style="color: white;">If you have time, browse through our listings and see what else we have to offer. If you are interested in combining an order then feel free to drop us an email or give us a call.</div>
-</div>
-    
+</div>  
 <div class="col-md-4">&nbsp;
 <br />
 <br>
 <br />
 <br />
-<a href="https://stores.ebay.com.au/jonojohno20004/Contact.html" target="_blank"> 
-<img src="https://www.jonoandjohno.com.au/jonojohno_logo.png"  class="img-responsive img-rounded"  width="350" height="250" alt="Jono & Johno Official Facebook Page"/>
-</a>
+<a href="https://stores.ebay.com.au/jonojohno20004/Contact.html" target="_blank"> <img src="https://www.jonoandjohno.com.au/jonojohno_logo.png"  class="img-responsive img-rounded"  width="100%" height="auto" alt="Jono & Johno Official Facebook Page"/></a>
 <br>
 <br />
-</div>
 
+</div>
 </div>
 </div>
 
@@ -11299,3 +11232,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 </style>
+
+</div>
+</div>
